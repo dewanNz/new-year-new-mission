@@ -1,0 +1,156 @@
+main {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+/* header style */
+.bg-img {
+  height: 600px;
+  background-image: url("assets/bannerimage.png");
+  background-size: 100% 100%;
+}
+.new-year {
+  padding-top: 125px;
+  position: absolute;
+  width: 1320px;
+  color: white;
+  border-radius: 15px;
+  text-align: center;
+  background-image: linear-gradient(
+    180deg,
+    rgb(7, 2, 17),
+    rgba(7, 2, 17, 0) 100%
+  );
+}
+.new-year-info {
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+}
+.new-year-title {
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+}
+/* category section style */
+.category {
+  padding: 130px;
+  border-radius: 10px;
+}
+
+.category-info {
+  text-align: center;
+  font-family: Inter;
+}
+.category-info h1 {
+  color: #ff0000;
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 107px;
+  margin-bottom: 50px;
+}
+.category-info h4 {
+  color: #ff0000;
+  font-size: 24px;
+  font-weight: 500;
+}
+.category-info h3 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0%;
+}
+
+/* mid night party style */
+.mid-night-party {
+  display: flex;
+  height: 600px;
+  background-image: url("assets/Vectorrr.png");
+  background-size: 100% 100%;
+  font-family: Merriweather;
+  color: white;
+  margin-bottom: 120px;
+}
+.mid-night-party-gradient {
+  display: flex;
+  border-radius: 15px;
+  background-image: linear-gradient(
+    180deg,
+    rgb(7, 2, 17),
+    rgba(7, 2, 17, 0) 100%
+  );
+}
+.mid-night-party-info {
+  padding: 95px;
+}
+.mid-night-party-info h1 {
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 11%;
+}
+
+.mid-night-party-info p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+
+.mid-night-party img {
+  padding: 50px 60px;
+}
+
+.mid-night-party-info button {
+  color: #fff;
+  border: transparent;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: transparent;
+  padding-left: 40px;
+  outline: none;
+}
+/* dead line style */
+.deadline {
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+  padding: 100px 300px;
+}
+
+.deadline-info {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.deadline-info-color {
+  color: #ff0000;
+}
+.deadline-info button {
+  width: 167px;
+  height: 56px;
+  border: 3px solid white;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 8px;
+  background: #ff0000;
+  margin-top: 50px;
+}
