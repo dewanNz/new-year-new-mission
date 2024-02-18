@@ -160,6 +160,7 @@ main {
   display: flex;
   justify-content: space-evenly;
   padding-left: 40px;
+  margin-bottom: 150px;
 }
 .round-border {
   background-image: url(assets/Ellipse1.png);
@@ -171,9 +172,6 @@ main {
   border-radius: 50%;
 }
 
-.best-offer {
-  /* border: 10px solid blue; */
-}
 .best-offer h4 {
   font-family: Inter;
   font-size: 24px;
@@ -210,4 +208,151 @@ main {
   font-family: Inter;
   font-size: 20px;
   font-weight: 400;
+}
+
+/* holyday-sale style */
+.holiday-sale {
+  text-align: center;
+}
+.holiday-sale-info h4 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.holiday-sale-info h1 {
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+.holidays {
+  color: #ff0000;
+}
+.holiday-sale-info p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  padding: 10px 230px;
+}
+.holiday-sale-off {
+  display: flex;
+}
+.prizes {
+  position: relative;
+  margin-bottom: -200px;
+}
+.sale-off {
+  position: relative;
+  margin-right: -160px;
+}
+.holiday-sale-happiness {
+  margin-left: -50px;
+}
+/* awesome portfolio style */
+.awesome-portfolio {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.awesome-portfolio h4 {
+  color: #ff0000;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.awesome-portfolio h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+}
+.awesome-portfolio p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  padding-right: 400px;
+}
+
+.image-gallary-items {
+  margin: 6px;
+}
+
+/* subscribe styles */
+.subscribe-now {
+  text-align: center;
+  height: 600px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+}
+
+.newsletter {
+  padding-top: 100px;
+  margin-bottom: 150px;
+}
+.newsletter h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.newsletter p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.add-email {
+  position: relative;
+  width: 600 px;
+  height: 60px;
+  color: rgba(7, 2, 17, 0.3);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 50px 0px 0px 50px;
+  background: rgb(255, 255, 255);
+  border: transparent;
+  padding-left: 50px;
+  outline: none;
+}
+.submit-email {
+  /* position: absolute; */
+  height: 60px;
+  border: none;
+  border-radius: 0px 50px 50px 0px;
+  outline: none;
+  margin: 1px;
+  padding: 0 20px;
+  cursor: pointer;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  background: #ff0000;
+  color: #ffffff;
+}
+
+/* footer Style */
+.footer {
+  background-color: #070211;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 50px;
+}
+
+.address-info,
+.copy-right {
+  display: flex;
+  justify-content: space-around;
+}
+.social-network {
+  text-align: center;
+  margin: 100px;
 }
