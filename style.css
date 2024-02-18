@@ -153,4 +153,61 @@ main {
   border-radius: 8px;
   background: #ff0000;
   margin-top: 50px;
+  margin-bottom: 200px;
+}
+/* coming-soon style */
+.coming-soon {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 40px;
+}
+.round-border {
+  background-image: url(assets/Ellipse1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  width: 400px;
+  border: 10px solid red;
+  border-radius: 50%;
+}
+
+.best-offer {
+  /* border: 10px solid blue; */
+}
+.best-offer h4 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  color: #ff0000;
+}
+.best-offer h2 {
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+}
+.best-offer p {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+}
+.happy-new-message {
+  width: 400px;
+  height: 300px;
+  /* border: 10px solid blue; */
+  padding-left: 70px;
+}
+
+.happy-new-message h2 {
+  color: #ff0000;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+.happy-new-message p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
 }
